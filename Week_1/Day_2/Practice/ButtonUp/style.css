@@ -1,0 +1,24 @@
+.search{
+    border: 2px solid #008080;
+    color: #008080;
+    border-radius: 75px;
+    text-align: center;
+    padding: 4px; ;
+}
+#plus{
+    border: 2px ;
+    border-radius: 50%;
+    background-color: #00D1B2;
+    color: aliceblue;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+}
+.Create{
+    border: 2px solid #000000;
+    color: #ffffff;
+    text-align: center;
+    background-color: #2B78E4;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
