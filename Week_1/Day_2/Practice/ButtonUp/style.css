@@ -3,7 +3,8 @@
     color: #008080;
     border-radius: 75px;
     text-align: center;
-    padding: 4px; ;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #plus{
     border: 2px ;
