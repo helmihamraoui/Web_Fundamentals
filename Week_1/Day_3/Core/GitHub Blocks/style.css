@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.bc{
+    background-color: rgb(243, 234, 234);
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.p1{
+    background-color: #5BC7FC;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.p2{
+    background-color:#D79AAA ;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.p3{
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.im{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.lin{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+a{
+    color: #5BC7FC;
+}
