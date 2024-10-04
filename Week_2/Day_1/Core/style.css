@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.barsearch{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CCCCCC;
+    position: relative;
+}
+.search{
+    opacity: 0.5;
+}
+.title{
+    font-family: cursive;
+}
+.page{
+    display: flex;
+    position: fixed ;
+    justify-content: center;
+    gap: 30px;
+    top: 100px;
+    width: 800px;
+    height: 1000px;
+}
+.blocleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 2;
+    margin: 20px;
+}
+.massegetop{
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    gap: 20px;
+    border: 5px solid black;
+}
+.blocright{
+    display: flex;
+    flex: 1;
+}
+.massegerigth{
+    width: 200px;
+    height: 150px;
+}
+.h3h4massege{
+    text-align: center;
+}
+.leftmassege{
+    text-align: center;
+    padding-left: 20px;
+}
+.h3h4massege{
+    opacity: 0.5;
+}
+a{
+    color: #2B78E4;
+}
+.buttonlike{
+    background-color: #FFD966;
+    margin: 10px;
+}
+.massegerigth{
+    border: solid 5px black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    width: 300px;
+}
+.massegerigth button{
+    background-color: #93C47D;
+}
+button{
+    box-shadow: 2px  2px black;
+}
+.login{
+    background-color: #2B78E4;
+}
