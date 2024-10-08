@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="navbar">
+            <h1>DojoWeather</h1>
+            <ul onclick="afficher()">
+                <li>Burbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+            </ul>
+        </div>
+        <div class="continer">
+        <div class="temperaturebar">
+            <h2>San Jose</h2>
+            <div style="display: flex;"><h4>show temperature in :</h4>
+            <select name="select" id="select" onchange="calculetemp(indexselect('select'))" >
+                <option value="°C">°C</option>
+                <option value="°F">°F</option>
+            </select></div>
+        </div>
+        <hr>
+        <div class="bloxbtwin">
+            <div class="boxwater">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="rain">
+                <h4>some rain</h4>
+                <h2><span id="temp">24</span><span id="temp4">18</span></h2>
+            </div>
+            <div class="boxwater">
+                <h3>Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="sum">
+                <h4>some sun</h4>
+                <h2><span id="temp1">27</span><span id="temp5">19</span></h2>
+            </div>
+            <div class="boxwater">
+                <h3>Friday</h3>
+                <img src="./assets/some_clouds.png" alt="clouds">
+                <h4>some clouds</h4>
+                <h2><span id="temp2">21</span><span id="temp6">16</span></h2>
+            </div>
+            <div class="boxwater">
+                <h3>Saturday</h3>
+                <img src="./assets/some_sun.png" alt="sum">
+                <h4>some sum</h4>
+                <h2><span id="temp3">26</span><span id="temp7">21</span></h2>
+            </div>
+        </div>
+        <div class="popap">
+            <img src="./assets/cookie.png" alt="cookie">
+            <div>
+                <h2>stop! Cookie time</h2>
+                <p>we use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="removePopap('.popap')">I Accept</button>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

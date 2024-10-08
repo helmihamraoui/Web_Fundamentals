@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9EC4F7;
+    color: white;
+    height: 100px;
+    font-family: cursive;
+}
+.navbar ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: larger;
+}
+.temperaturebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: cursive;
+}
+.temperaturebar select{
+    border: 3px solid black;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+.continer{
+    width: 900px;
+    margin: 0 auto;
+}
+.bloxbtwin{
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    padding: 20px;
+}
+.boxwater{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #EEEEEE;
+    font-size: large;
+    height: 400px;
+    width: 450px;
+    font-family: cursive;
+}
+.boxwater img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.boxwater h2{
+    display: flex;
+    gap: 30px;
+    width: 170px;
+    justify-content: space-around;
+    color: #2B78E3;
+}
+h2 span:first-child{
+    color: #CF2A27;
+}
+.popap{
+    background-color: #EEEEEE;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0px 15px 0px 15px;
+    width: 850px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: cursive;
+    position: fixed;
+    bottom: 0;
+}
+.popap img{
+    width: 100px;
+    padding: 20px;
+}
+.popap button{
+    height: 30px;
+    width: 150px;
+    background-color:#9FC5F8;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    margin: 10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.popap h2,.popap p {
+    width: 600px;
+}
